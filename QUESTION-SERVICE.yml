@@ -1,1 +1,28 @@
+spring:
+  application:
+    name: QUESTION-SERVICE
 
+  datasource:
+    url: jdbc:mysql://localhost:3306/micro_yt
+    username: root
+    password: root
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8084/eureka/
+
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: refresh
+
+dummy:
+  data:
+    name: Akash not refreshed yet

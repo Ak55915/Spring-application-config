@@ -14,9 +14,13 @@ eureka:
     service-url:
       defaultZone: http://localhost:8084/eureka/
 
-management:
- endpoints:
-  web:
-   exposure:
-    include: refresh
-      
+# management:
+#  endpoints:
+#   web:
+#    exposure:
+#     include: refresh
+
+
+dummy:
+ data:
+  name: Akash not refreshed yet

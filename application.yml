@@ -1,5 +1,4 @@
-spring:
-  datasource:
+ datasource:
     url: jdbc:mysql://localhost:3306/micro_yt
     username: root
     password: root
@@ -14,13 +13,8 @@ eureka:
     service-url:
       defaultZone: http://localhost:8084/eureka/
 
-# management:
-#  endpoints:
-#   web:
-#    exposure:
-#     include: refresh
-
-
-dummy:
- data:
-  name: Akash not refreshed yet
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: QUIZ-SERVICE
-
 dummy:
   data:
-    name: Akash not refreshed yet
+    name: Akash not refreshed yet from QUIZ service.
